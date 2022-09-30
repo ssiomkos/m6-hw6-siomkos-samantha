@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}  
+
+header {
+    background-color: #f5f4f4;
+    height: 40px;
+    padding: 5px 200px;
+    border-bottom: solid grey 1pt;
+}
+
+header > nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header > nav > h1 {
+    color: black;
+    margin-right: auto;
+    text-align: center;
+}
+
+header > nav > a {
+    color: black;
+    padding: 3px;
+    text-decoration: none;
+}
+
+main {
+    background-image: url(https://ssiomkos.github.io/m5-hw5-siomkos-samantha/assets/watercolor.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 200px;
+}
+
+main h2 {
+    border-bottom: solid gray 1pt;
+    color: black;
+    margin-top: auto;
+}
+
+main > section img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-right: 25px;
+}
+
+section {
+    background-color: #fcf2f6;
+    max-width: 450px;
+    padding: 0px 5px;
+}
+
+aside {
+    background-color: #fcf2f6;
+    max-height: 75px;
+    min-width: 150px;
+    padding: 5px;
+    text-align: center;
+}
+
+aside h3 {
+    border-bottom: solid gray 1pt;
+    color: black;
+    display: inline;
+}
+
+aside nav {
+    border-top: solid gray 1pt;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+
+aside img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 25px;
+    justify-content: space-between;
+    width: 25px;
+}
+
+footer {
+    background-color: #f5f4f4;
+    border-top: solid grey 1pt;
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+    margin-top: auto;
+}
